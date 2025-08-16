@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 15 Aug 2025 16:45:11 GMT
+ * Generated on Sat, 16 Aug 2025 09:31:51 GMT
  */
 
 export const SpacingXs = "4px";
