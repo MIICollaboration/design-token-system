@@ -1274,7 +1274,7 @@
         },
         "darkest": {
           "$type": "color",
-          "$value": "#003381"
+          "$value": "#001a41"
         }
       },
       "neutral": {
@@ -1474,7 +1474,7 @@
         }
       }
     },
-    "Semantic Color": {
+    "Semantic Colors": {
       "text": {
         "placeholder": {
           "$type": "color",
@@ -2179,9 +2179,71 @@
       "$type": "textCase",
       "$value": "capitalize"
     },
-    "telkomse-batik-sans": {
+    "telkomsel-batik-sans": {
       "$type": "fontFamilies",
       "$value": "Telkomsel Batik Sans"
+    },
+    "Gradients Colors": {
+      "Dark Red": {
+        "$type": "color",
+        "$value": "linear-gradient(37deg, #b90024 5.35%, #ff0025 69.24%, #fd195e 100%)"
+      },
+      "Dark Blue": {
+        "$type": "color",
+        "$value": "linear-gradient(33deg, #001a41 0%, #0e336c 100%)"
+      },
+      "Candy Red": {
+        "$type": "color",
+        "$value": "linear-gradient(44deg, #cd0a45 58.4%, #fd2b77 100%)"
+      },
+      "Blue": {
+        "$type": "color",
+        "$value": "linear-gradient(225deg, #073975 0%, #0450a9 55.03%)"
+      },
+      "Pink": {
+        "$type": "color",
+        "$value": "linear-gradient(44deg, #eb82a2 58.4%, #fb2974 100%)"
+      },
+      "Yellow": {
+        "$type": "color",
+        "$value": "linear-gradient(225deg, #d8db4b 0%, #eff189 54.38%)"
+      },
+      "Orange": {
+        "$type": "color",
+        "$value": "linear-gradient(225deg, #df9330 0%, #f1ba72 51.35%)"
+      },
+      "Green": {
+        "$type": "color",
+        "$value": "linear-gradient(225deg, #08b56d 0%, #3ecd92 53.96%)"
+      },
+      "Light Blue": {
+        "$type": "color",
+        "$value": "linear-gradient(180deg, #cdd6e7 0%, #cdd6e700 100%)"
+      },
+      "Bronze": {
+        "$type": "color",
+        "$value": "linear-gradient(33deg, #a47146 0%, #d9a274 100%)"
+      },
+      "Silver 1": {
+        "$type": "color",
+        "$value": "linear-gradient(33deg, #939592 0%, #cdcdcd 100%)"
+      },
+      "Silver 2": {
+        "$type": "color",
+        "$value": "linear-gradient(33deg, #576080 0%, #bac5db 100%)"
+      },
+      "Gold 1": {
+        "$type": "color",
+        "$value": "linear-gradient(225deg, #eff189 31.97%, #b4b726 98.39%)"
+      },
+      "Gold 2": {
+        "$type": "color",
+        "$value": "linear-gradient(244deg, #fcc40b 0%, #b8922f 98.39%)"
+      },
+      "Yellow Background": {
+        "$type": "color",
+        "$value": "linear-gradient(180deg, #ffeed8 0%, #ffeed800 100%)"
+      }
     }
   },
   "$themes": [],
