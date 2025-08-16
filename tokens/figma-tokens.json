@@ -1212,7 +1212,7 @@
     }
   },
   "global.v2": {
-    "Primitive Colors": {
+    "Primitives Colors": {
       "red": {
         "lightest": {
           "$type": "color",
@@ -1274,7 +1274,7 @@
         },
         "darkest": {
           "$type": "color",
-          "$value": "#003381"
+          "$value": "#001a41"
         }
       },
       "neutral": {
@@ -1474,123 +1474,123 @@
         }
       }
     },
-    "Semantic Color": {
+    "Semantics Colors": {
       "text": {
         "placeholder": {
           "$type": "color",
-          "$value": "{Primitive Colors.neutral.2}"
+          "$value": "{Primitives Colors.neutral.2}"
         },
         "inverse": {
           "$type": "color",
-          "$value": "{Primitive Colors.neutral.0}"
+          "$value": "{Primitives Colors.neutral.0}"
         },
         "disabled": {
           "$type": "color",
-          "$value": "{Primitive Colors.neutral.4}"
+          "$value": "{Primitives Colors.neutral.4}"
         },
         "soft": {
           "$type": "color",
-          "$value": "{Primitive Colors.neutral.1}"
+          "$value": "{Primitives Colors.neutral.1}"
         },
         "strong": {
           "$type": "color",
-          "$value": "{Primitive Colors.blue.darkest}"
+          "$value": "{Primitives Colors.blue.darkest}"
         },
         "secondary": {
           "$type": "color",
-          "$value": "{Primitive Colors.neutral.8}"
+          "$value": "{Primitives Colors.neutral.8}"
         }
       },
       "secondary": {
         "base": {
           "$type": "color",
-          "$value": "{Primitive Colors.blue.darkest}"
+          "$value": "{Primitives Colors.blue.darkest}"
         }
       },
       "success": {
         "base": {
           "$type": "color",
-          "$value": "{Primitive Colors.green.dark}"
+          "$value": "{Primitives Colors.green.dark}"
         },
         "light": {
           "$type": "color",
-          "$value": "{Primitive Colors.cyan.lightest}"
+          "$value": "{Primitives Colors.cyan.lightest}"
         },
         "dark": {
           "$type": "color",
-          "$value": "{Primitive Colors.green.darker}"
+          "$value": "{Primitives Colors.green.darker}"
         }
       },
       "border": {
         "dark": {
           "$type": "color",
-          "$value": "{Primitive Colors.neutral.4}"
+          "$value": "{Primitives Colors.neutral.4}"
         },
         "darker": {
           "$type": "color",
-          "$value": "{Primitive Colors.neutral.7}"
+          "$value": "{Primitives Colors.neutral.7}"
         },
         "strong": {
           "$type": "color",
-          "$value": "{Primitive Colors.blue.darkest}"
+          "$value": "{Primitives Colors.blue.darkest}"
         },
         "default": {
           "$type": "color",
-          "$value": "{Primitive Colors.neutral.3}"
+          "$value": "{Primitives Colors.neutral.3}"
         },
         "softer": {
           "$type": "color",
-          "$value": "{Primitive Colors.neutral.1}"
+          "$value": "{Primitives Colors.neutral.1}"
         },
         "inverse": {
           "$type": "color",
-          "$value": "{Primitive Colors.neutral.0}"
+          "$value": "{Primitives Colors.neutral.0}"
         },
         "soft": {
           "$type": "color",
-          "$value": "{Primitive Colors.neutral.2}"
+          "$value": "{Primitives Colors.neutral.2}"
         }
       },
       "warning": {
         "light": {
           "$type": "color",
-          "$value": "{Primitive Colors.yellow.lightest}"
+          "$value": "{Primitives Colors.yellow.lightest}"
         },
         "dark": {
           "$type": "color",
-          "$value": "{Primitive Colors.orange.darkest}"
+          "$value": "{Primitives Colors.orange.darkest}"
         },
         "base": {
           "$type": "color",
-          "$value": "{Primitive Colors.orange.base}"
+          "$value": "{Primitives Colors.orange.base}"
         }
       },
       "primary": {
         "pressed": {
           "$type": "color",
-          "$value": "{Primitive Colors.red.darker}"
+          "$value": "{Primitives Colors.red.darker}"
         },
         "base": {
           "$type": "color",
-          "$value": "{Primitive Colors.red.base}"
+          "$value": "{Primitives Colors.red.base}"
         },
         "hover": {
           "$type": "color",
-          "$value": "{Primitive Colors.red.dark}"
+          "$value": "{Primitives Colors.red.dark}"
         }
       },
       "info": {
         "dark": {
           "$type": "color",
-          "$value": "{Primitive Colors.blue.dark}"
+          "$value": "{Primitives Colors.blue.dark}"
         },
         "base": {
           "$type": "color",
-          "$value": "{Primitive Colors.blue.base}"
+          "$value": "{Primitives Colors.blue.base}"
         },
         "light": {
           "$type": "color",
-          "$value": "{Primitive Colors.blue.lightest}"
+          "$value": "{Primitives Colors.blue.lightest}"
         }
       }
     },
@@ -2179,9 +2179,71 @@
       "$type": "textCase",
       "$value": "capitalize"
     },
-    "telkomse-batik-sans": {
+    "telkomsel-batik-sans": {
       "$type": "fontFamilies",
       "$value": "Telkomsel Batik Sans"
+    },
+    "Gradients Colors": {
+      "Dark Red": {
+        "$type": "color",
+        "$value": "linear-gradient(37deg, #b90024 5.35%, #ff0025 69.24%, #fd195e 100%)"
+      },
+      "Dark Blue": {
+        "$type": "color",
+        "$value": "linear-gradient(33deg, #001a41 0%, #0e336c 100%)"
+      },
+      "Candy Red": {
+        "$type": "color",
+        "$value": "linear-gradient(44deg, #cd0a45 58.4%, #fd2b77 100%)"
+      },
+      "Blue": {
+        "$type": "color",
+        "$value": "linear-gradient(225deg, #073975 0%, #0450a9 55.03%)"
+      },
+      "Pink": {
+        "$type": "color",
+        "$value": "linear-gradient(44deg, #eb82a2 58.4%, #fb2974 100%)"
+      },
+      "Yellow": {
+        "$type": "color",
+        "$value": "linear-gradient(225deg, #d8db4b 0%, #eff189 54.38%)"
+      },
+      "Orange": {
+        "$type": "color",
+        "$value": "linear-gradient(225deg, #df9330 0%, #f1ba72 51.35%)"
+      },
+      "Green": {
+        "$type": "color",
+        "$value": "linear-gradient(225deg, #08b56d 0%, #3ecd92 53.96%)"
+      },
+      "Light Blue": {
+        "$type": "color",
+        "$value": "linear-gradient(180deg, #cdd6e7 0%, #cdd6e700 100%)"
+      },
+      "Bronze": {
+        "$type": "color",
+        "$value": "linear-gradient(33deg, #a47146 0%, #d9a274 100%)"
+      },
+      "Silver 1": {
+        "$type": "color",
+        "$value": "linear-gradient(33deg, #939592 0%, #cdcdcd 100%)"
+      },
+      "Silver 2": {
+        "$type": "color",
+        "$value": "linear-gradient(33deg, #576080 0%, #bac5db 100%)"
+      },
+      "Gold 1": {
+        "$type": "color",
+        "$value": "linear-gradient(225deg, #eff189 31.97%, #b4b726 98.39%)"
+      },
+      "Gold 2": {
+        "$type": "color",
+        "$value": "linear-gradient(244deg, #fcc40b 0%, #b8922f 98.39%)"
+      },
+      "Yellow Background": {
+        "$type": "color",
+        "$value": "linear-gradient(180deg, #ffeed8 0%, #ffeed800 100%)"
+      }
     }
   },
   "$themes": [],
